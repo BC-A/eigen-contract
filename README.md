@@ -1,4 +1,4 @@
-You need to fill in the accounts in the hardhat.config.js as the private key of the deployment contract account
+You need to fill in the account private key in the hardhat.config.js as the account for deploying the contract
 
 # deploy Eigen contract on L1
 
