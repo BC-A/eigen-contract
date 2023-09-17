@@ -1,13 +1,13 @@
-# Sample Hardhat Project
+You need to fill in the accounts in the hardhat.config.js as the private key of the deployment contract account
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
-
-Try running some of the following tasks:
+# deploy Eigen contract on L1
 
 ```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
+npx hardhat run scripts/deploy.js --network localzkevmL1
+```
+
+# deploy Eigen contract on L2
+
+```shell
+npx hardhat run scripts/deploy.js --network localzkevmL2
 ```
